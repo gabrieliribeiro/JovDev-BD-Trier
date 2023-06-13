@@ -87,6 +87,10 @@ create table cliente(
 
 insert into cliente values (1, 'Cliente 1', 'F', '2000-07-12', 1),
 (2, 'Cliente 2', 'M', '1982-04-01', 2);
+insert into cliente values (3, 'Cliente 3', 'F', '2002-07-02', 1),
+(4, 'Cliente 4', 'M', '1992-04-29', 2), 
+(5, 'Cliente 5', 'F', '1985-08-15', 2),
+(6, 'Cliente 6', 'M', '2001-09-11', 1);
 
 drop table if exists venda;
 create table venda(
